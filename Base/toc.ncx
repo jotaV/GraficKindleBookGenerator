@@ -1,18 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!doctype html>
-<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+ "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns='http://www.daisy.org/z3986/2005/ncx/' version='2005-1'>
 	<head>
+    <meta content='{{UUID}}' name='dtb:uid'/>
+    <meta content='1' name='dtb:depth'/>
+    <meta content='0' name='dtb:totalPageCount'/>
+    <meta content='0' name='dtb:maxPageNumber'/>
 	</head>
 	<docTitle>
     	<text>{{TITLE}}</text>
   	</docTitle>
   	<navMap>
-  		<navPoint id="navPoint-1" playOrder="1">
-      		<navLabel>
-        		<text>Quado 1</text>
-      		</navLabel>
-      		<content src="Text/q1.xhtml" />
-    	</navPoint>
-    	{{ADDMAPOBJECT}}
+      {{ADDMAPOBJECT}}
   	</navMap>
 </ncx>
